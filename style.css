@@ -29,7 +29,11 @@ elevation: 20px;
 #NumSort{
 list-style: none;
 font-size: 3em;
+display: flex;
+flex-direction: row;
 }
-#numSort li{
-display: inline;
+
+.result{
+margin-right: 20px;
+margin-top: 20px;
 }
